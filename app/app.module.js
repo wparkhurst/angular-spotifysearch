@@ -16,6 +16,7 @@ var app_component_1 = require('./app.component');
 var search_component_1 = require('./components/search/search.component');
 var about_component_1 = require('./components/about/about.component');
 var navbar_component_1 = require('./components/navbar/navbar.component');
+var artist_component_1 = require('./components/artist/artist.component');
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
     function AppModule() {
@@ -29,7 +30,8 @@ var AppModule = (function () {
             declarations: [app_component_1.AppComponent,
                 search_component_1.SearchComponent,
                 about_component_1.AboutComponent,
-                navbar_component_1.NavbarComponent],
+                navbar_component_1.NavbarComponent,
+                artist_component_1.ArtistComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
